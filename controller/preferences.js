@@ -3,7 +3,9 @@
 // Model
 const PreferenceAndroid = require("../model/Preference");
 const nodemailer = require("nodemailer");
-const { google } = require("googleapis");
+const {
+  google
+} = require("googleapis");
 
 exports.getPreferenceByEmail = async (req, res, next) => {
   try {
@@ -52,8 +54,7 @@ exports.getPreferenceByEmail = async (req, res, next) => {
       //   },
       //   "android"
       // );
-    } else if (os === "ios") {
-    }
+    } else if (os === "ios") {}
 
     // Send the response
     res.status(200).json({

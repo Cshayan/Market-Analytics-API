@@ -28,7 +28,7 @@ app.get('/', (req, res, next) => {
     res.send('Working Fine');
     next();
 });
-app.use('/api/v1', preferencesRoute);
+app.use('/api/v1/getpreference', preferencesRoute);
 
 // Listen to server
 const PORT = process.env.PORT || 6000;

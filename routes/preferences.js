@@ -5,10 +5,12 @@ const express = require('express');
 const router = express.Router();
 
 // Controller methods
-const { getPreferenceByEmail } = require('../controller/preferences');
+const {
+    getPreferenceByEmail
+} = require('../controller/preferences');
 
 // Route to controller methods
-router.route('/getpreference').post(getPreferenceByEmail);
+router.route('/').post(getPreferenceByEmail);
 
 // Export the router
-module.exports = router;  
+module.exports = router;
