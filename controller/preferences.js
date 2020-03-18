@@ -35,23 +35,23 @@ exports.getPreferenceByEmail = async (req, res, next) => {
       );
 
       // send the email
-      sendEmail(
-        {
-          email,
-          name,
-          Info
-        },
-        {
-          battery,
-          ram,
-          backCamera,
-          frontCamera,
-          memory,
-          priceRange,
-          screenSize
-        },
-        "android"
-      );
+      // sendEmail(
+      //   {
+      //     email,
+      //     name,
+      //     Info
+      //   },
+      //   {
+      //     battery,
+      //     ram,
+      //     backCamera,
+      //     frontCamera,
+      //     memory,
+      //     priceRange,
+      //     screenSize
+      //   },
+      //   "android"
+      // );
     } else if (os === "ios") {
     }
 
