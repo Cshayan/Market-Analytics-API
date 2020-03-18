@@ -72,7 +72,11 @@ router.post('/', async (req, res, next) => {
             message: `Thank you for taking the survey! An email has been sent to ${email} with contains the list of some preferred mobile brands that the customer can opt for.`
         });
     } catch (error) {
-        console.log(error);
+        // Send the response
+        res.status(500).json({
+            success: false,
+            message: error
+        });
     }
 });
 
