@@ -27,7 +27,7 @@ app.use(cors());
 app.use('/api/v1', preferencesRoute);
 
 // Listen to server
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 6000;
 app.listen(PORT, () => {
     console.log(`Server running on PORT ${PORT}`);
 });
