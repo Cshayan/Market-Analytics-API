@@ -24,6 +24,10 @@ app.use(express.json());
 app.use(cors());
 
 // Route settings
+app.get('/', (req, res, next) => {
+    res.send('Working Fine');
+    next();
+});
 app.use('/api/v1', preferencesRoute);
 
 // Listen to server
