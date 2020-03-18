@@ -1,0 +1,68 @@
+[
+  {
+    "os": {
+      "android": {
+        "battery": {
+          "maH3000": {
+            "brand": ["Samsung", "Motorola", "Xiaomi"]
+          },
+          "maH4000": {
+            "brand": ["Samsung", "Nokia", "OnePlus"]
+          },
+          "maH5000": {
+            "brand": ["Nokia", "OnePlus", "Xiaomi"]
+          }
+        },
+        "ram": {
+          "2gb": {
+            "brand": ["Nokia", "Motorola", "OnePlus"]
+          },
+          "4gb": {
+            "brand": ["OnePlus", "Xiaomi", "Samsung"]
+          }
+        },
+        "backCamera": {
+            "5mp": {
+                "brand": ["Nokia", "Motorola", "OnePlus"]
+            },
+            "10mp": {
+                "brand": ["OnePlus", "Nokia", "Samsung"]
+            }
+        },
+        "frontCamera": {
+            "5mp": {
+                "brand": ["Nokia", "Motorola", "OnePlus"]
+            },
+            "10mp": {
+                "brand": ["OnePlus", "Nokia", "Samsung"]
+            }
+        },
+        "memory": {
+            "32gb": {
+                "brand": ["Nokia", "Motorola", "OnePlus"]
+            },
+            "64gb": {
+                "brand": ["Nokia", "Motorola", "OnePlus"]
+            }
+        },
+        "price": {
+            "1k-5k": {
+                "brand": ["Nokia", "Motorola", "OnePlus"]
+            },
+            "5k-10k": {
+                "brand": ["Nokia", "Motorola", "OnePlus"]
+            }
+        },
+        "screenSize": {
+            "5inch": {
+                "brand": ["Nokia", "Motorola", "OnePlus"]
+            },
+            "10inch": {
+                "brand": ["Nokia", "Motorola", "OnePlus"]
+            }
+        }
+      },
+      "ios": {}
+    }
+  }
+]
