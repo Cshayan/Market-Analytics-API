@@ -1,0 +1,207 @@
+[{
+  "os": {
+    "android": {
+      "battery": {
+        "3000mAh": {
+          "brand": ["Samsung", "Realme", "Xiaomi"]
+        },
+        "4000mAh": {
+          "brand": ["Samsung", "Xiaomi", "Oppo"]
+        },
+        "5000mAh": {
+          "brand": ["Samsung", "LG", "Huawei"]
+        },
+        "6000mAh": {
+          "brand": ["Samsung", "Tecno", "Blackview"]
+        },
+        "Other": {
+          "brand": ["Samsung", "Tecno", "Blackview"]
+        }
+      },
+      "ram": {
+        "2GB": {
+          "brand": ["Xiaomi", "Oppo", "Samsung"]
+        },
+        "4GB": {
+          "brand": ["Redmi", "Vivo", "Samsung"]
+        },
+        "6GB": {
+          "brand": ["Xiaomi", "Realme", "Samsung"]
+        },
+        "8GB": {
+          "brand": ["Samsung", "Huawei", "OnePlus"]
+        }
+      },
+      "backCamera": {
+        "20Mp": {
+          "brand": ["Xiaomi", "Realme", "Samsung"]
+        },
+        "40Mp": {
+          "brand": ["OnePlus", "Xiaomi", "Samsung"]
+        },
+        "Other": {
+          "brand": ["Realme", "Oppo", "Samsung"]
+        },
+        "80Mp": {
+          "brand": ["Asus", "Lenovo", "OnePlus"]
+        }
+      },
+      "frontCamera": {
+        "20Mp": {
+          "brand": ["Oppo", "Samsung", "Xiaomi"]
+        },
+        "40Mp": {
+          "brand": ["Realme", "Vivo", "Samsung"]
+        },
+        "Other": {
+          "brand": ["Realme", "Xiaomi", "Oppo"]
+        },
+        "80Mp": {
+          "brand": ["Realme", "Samsung", "OnePlus"]
+        }
+      },
+      "memory": {
+        "32GB": {
+          "brand": ["Lenovo", "Vivo", "Motorola"]
+        },
+        "64GB": {
+          "brand": ["Samsung", "Motorola", "Xiaomi"]
+        },
+        "128GB": {
+          "brand": ["Huawei", "Samsung", "Xiaomi"]
+        },
+        "256GB": {
+          "brand": ["Oppo", "Asus", "OnePlus"]
+        }
+      },
+      "price": {
+        "5k-10k": {
+          "brand": ["Realme", "Vivo", "Xiaomi"]
+        },
+        "10k-15k": {
+          "brand": ["Xiaomi", "Motorola", "Samsung"]
+        },
+        "15k-25k": {
+          "brand": ["Samsung", "Asus", "Xiaomi"]
+        },
+        ">25k": {
+          "brand": ["Oppo", "Samsung", "OnePlus"]
+        }
+      },
+      "screenSize": {
+        "4inch": {
+          "brand": ["Lenovo", "Vivo", "Oppo"]
+        },
+        "5inch": {
+          "brand": ["Xiaomi", "Samsung", "Motorola"]
+        },
+        "6inch": {
+          "brand": ["Xiaomi", "Samsung", "OnePlus"]
+        },
+        "Other": {
+          "brand": ["Xiaomi", "Samsung", "OnePlus"]
+        }
+      }
+    },
+    "ios": {
+      "battery": {
+        "3000mAh": {
+          "brand": ["iPhone6", "iPhone6s", "iPhone7"]
+        },
+        "4000mAh": {
+          "brand": ["iPhoneXs", "iPhone7plus", "iPhoneX"]
+        },
+        "5000mAh": {
+          "brand": ["iPhone11", "iPhone11pro", "iPhoneXR"]
+        },
+        "6000mAh": {
+          "brand": ["iPhone11promax", "iPhoneXR", "iPhone11pro"]
+        },
+        "Other": {
+          "brand": ["iPhone11promax", "iPhoneXR", "iPhone11pro"]
+        }
+      },
+      "ram": {
+        "2GB": {
+          "brand": ["iPhone8", "iPhone8plus", "iPhone7plus"]
+        },
+        "4GB": {
+          "brand": ["iPhoneXs", "iPhoneXsmax", "iPhone11"]
+        },
+        "6GB": {
+          "brand": ["iPhoneX", "iPhone11pro", "iPhoneXR"]
+        },
+        "8GB": {
+          "brand": ["iPhoneXR", "iPhone11pro", "iPhone11promax"]
+        }
+      },
+      "backCamera": {
+        "20Mp": {
+          "brand": ["iPhone6", "iPhone7", "iPhone8"]
+        },
+        "40Mp": {
+          "brand": ["iPhone6s", "iPhone7plus", "iPhone8plus"]
+        },
+        "Other": {
+          "brand": ["iPhoneX", "iPhoneXS", "iPhoneXR"]
+        },
+        "80mp": {
+          "brand": ["iPhone11", "iPhone11pro", "iPhone11promax"]
+        }
+      },
+      "frontCamera": {
+        "20Mp": {
+          "brand": ["iPhone6", "iPhone7", "iPhone8"]
+        },
+        "40Mp": {
+          "brand": ["iPhone6s", "iPhone7plus", "iPhone8plus"]
+        },
+        "Other": {
+          "brand": ["iPhoneX", "iPhoneXS", "iPhoneXR"]
+        },
+        "80Mp": {
+          "brand": ["iPhone11", "iPhone11pro", "iPhone11promax"]
+        }
+      },
+      "memory": {
+        "32GB": {
+          "brand": ["iPhone6", "iPhone7", "iPhone8"]
+        },
+        "64GB": {
+          "brand": ["iPhone6s", "iPhone7plus", "iPhone8plus"]
+        },
+        "128GB": {
+          "brand": ["iPhoneX", "iPhoneXS", "iPhoneXR"]
+        },
+        "256GB": {
+          "brand": ["iPhone11", "iPhone11pro", "iPhone11promax"]
+        }
+      },
+      "price": {
+        "5k-10k": {
+          "brand": ["iPhone6", "iPhone7", "iPhone8"]
+        },
+        "10k-15k": {
+          "brand": ["iPhone6s", "iPhone7plus", "iPhone8plus"]
+        },
+        "15k-25k": {
+          "brand": ["iPhoneX", "iPhoneXS", "iPhoneXR"]
+        },
+        ">25k": {
+          "brand": ["iPhone11", "iPhone11pro", "iPhone11promax"]
+        }
+      },
+      "screenSize": {
+        "4inch": {
+          "brand": ["iPhone6", "iPhone7", "iPhone8"]
+        },
+        "5inch": {
+          "brand": ["iPhoneX", "iPhoneXS", "iPhoneXR"]
+        },
+        "6inch": {
+          "brand": ["iPhone11", "iPhone11pro", "iPhone11promax"]
+        }
+      }
+    }
+  }
+}]

@@ -6,7 +6,6 @@ const cors = require('cors');
 
 // Route files
 const preferencesRoute = require('./routes/preferences');
-const testRoute = require('./routes/test');
 
 // Config file
 dotenv.config({
@@ -30,7 +29,6 @@ app.get('/', (req, res, next) => {
     next();
 });
 app.use('/api/v1/getpreference', preferencesRoute);
-app.use('/api/v1/test', testRoute);
 
 // Listen to server
 const PORT = process.env.PORT || 6000;

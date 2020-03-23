@@ -24,7 +24,7 @@ exports.getPreferenceByEmail = async (req, res, next) => {
     } = req.body;
 
     // if the os is android
-    if (os === "android") {
+    if (os === "Android") {
       // search the Android Model
       const Info = await PreferenceAndroid.find({}).select(
         `os.android.battery.${battery} 
@@ -52,7 +52,34 @@ exports.getPreferenceByEmail = async (req, res, next) => {
         },
         "android"
       );
-    } else if (os === "ios") {}
+    } else if (os === "IOS") {
+      const Info = await PreferenceAndroid.find({}).select(
+        `os.ios.battery.${battery} 
+                 os.ios.ram.${ram}
+                 os.ios.backCamera.${backCamera}
+                 os.ios.frontCamera.${frontCamera}
+                 os.ios.memory.${memory}
+                 os.ios.price.${priceRange}
+                 os.ios.screenSize.${screenSize}`
+      );
+
+      // send the email
+      sendEmail({
+          email,
+          name,
+          Info
+        }, {
+          battery,
+          ram,
+          backCamera,
+          frontCamera,
+          memory,
+          priceRange,
+          screenSize
+        },
+        "ios"
+      );
+    }
 
     // Send the response
     res.status(200).json({

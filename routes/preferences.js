@@ -3,15 +3,10 @@
 // Dependencies
 const express = require('express');
 const router = express.Router();
-const PreferenceAndroid = require("../model/Preference");
-const nodemailer = require("nodemailer");
-const {
-  google
-} = require("googleapis");
 
 // Controller methods
 const {
-    getPreferenceByEmail
+  getPreferenceByEmail
 } = require('../controller/preferences');
 
 // Route to controller methods

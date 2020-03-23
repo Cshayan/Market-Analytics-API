@@ -5,17 +5,17 @@ const PreferenceSchema = new mongoose.Schema({
         type: Object,
         android: {
             battery: {
-                maH3000: {
+                "3000mAh": {
                     brand: {
                         type: [String]
                     }
                 },
-                maH4000: {
+                "4000mAh": {
                     brand: {
                         type: [String]
                     }
                 },
-                maH5000: {
+                "5000mAh": {
                     brand: {
                         type: [String]
                     }

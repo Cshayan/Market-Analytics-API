@@ -24,7 +24,7 @@ mongoose.connect(process.env.MONGO_URI, {
 });
 
 // Read the JSON file
-const preferencesData = JSON.parse(fs.readFileSync(`${__dirname}/_data/preferences.json`, 'utf-8'));
+const preferencesData = JSON.parse(fs.readFileSync(`${__dirname}/_data/mproject.json`, 'utf-8'));
 
 // Import data to DB
 const immportData = async () => {
