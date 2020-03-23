@@ -16,7 +16,7 @@ dotenv.config({
 const connectDB = require('./config/db');
 
 // Connect to database
-connectDB();
+connectDB(); 
 
 // Body Parser Middleware
 app.use(express.json());
